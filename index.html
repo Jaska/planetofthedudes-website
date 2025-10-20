@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>The Planet of The D.U.D.E.S.</title>
+  <meta name="description" content="The D.U.D.E.S - A batch of cosmic sailors who communicate through rock'n roll!">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="The Planet of The D.U.D.E.S.">
+  <meta property="og:description" content="The D.U.D.E.S - A batch of cosmic sailors who communicate through rock'n roll!">
+  <meta property="og:url" content="https://planetofthedudes.com">
+  <meta property="og:image" content="https://planetofthedudes.com/img/The-Dudes_og.jpg">
+
+  <!-- <link rel="apple-touch-icon" href="icon.png"> -->
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <div class="site" style="flex-direction: column;">
+ 
+    <div style="
+    padding-top: 3rem;
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    ">
+    <img src="img/tonight-your-ass-belongs-to-me-the-dudes-single-coverart.jpg" style="
+    max-width: 100%;
+    height: auto;
+    ">
+    <div>
+    <h2 style="
+    font-size: 22px;
+    ">NEW SONGS OUT!<br> Tonight Your Ass Belongs To Me &amp; Everything's Coming Off</h2>
+    <p><a href="https://open.spotify.com/album/6XwbM3nAw48G0QLNBnV1fX">Listen in Spotify!</a><br><a href="https://music.apple.com/us/album/tonight-your-ass-belongs-to-me-single/1659637776">Listen in Apple Music!</a><br><a href="https://tidal.com/browse/track/266446182">Listen in Tidal!</a><br></p>
+    </div>
+    </div>
+
+    <div class="curtain">
+      <p style="
+        margin-bottom: 0;
+    ">Greeting humans. We are</p>
+      <h1 class="p" style="
+        font-size: inherit;
+        line-height: 1;
+        margin: 0;
+        font-size: 1.666rem;
+    ">The D.U.D.E.S.</h1>
+      <p class="slogan" style="
+        margin-top: 0;
+    "></p>
+
+      <div class="cols">
+        <p><a href="https://www.instagram.com/planetofthedudes">@PLANETOFTHEDUDES</a><br>in Instagram</p>
+        <p><a href="https://www.youtube.com/@planetofthedudes">@PLANETOFTHEDUDES</a><br>in YouTube</p>
+        <p><a href="https://facebook.com/planetofthedudes">PLANETOFTHEDUDES</a><br>in Facebook</p>
+        <p style="grid-column: span 3;">
+          Email our earth agents:<br>
+          Jaakko Saarenketo - <a href="mailto:jaakko@favor.org">jaakko@favor.org</a> / Janne Räsänen - <a href="mailto:janneaslak@gmail.com">janneaslak@gmail.com</a>
+        </p>
+      </div>
+    </div>
+
+</div>
+
+  <script>
+    // DONT UNDERTAKE DATA ESPIONAGE SABOTAGE!
+    let dudeslogans = [
+      'We bring a message of sound, lights and action!',
+      'It\'s not rocket science - it\'s rock n\'roll!',
+      'We are on a mission from DUDE!',
+      'Damp Underdogs Digging Every Sound',
+      'Devil Understands Dorky Entertainment Songs',
+      'Dark Utopia Deserves Epic Symphonies',
+      'Tonight your ass belongs to me',
+      'Reserve your ticket for The Planet!',
+      'Beware! The D.U.D.E.S. are infectious',
+      'First we take Tuira, then we take Berlin',
+      'Don\'t trust the Cobra',
+      'Hello and welcome, to wherever we are',
+      'These are the dudes you\'re looking for',
+      'Songs that will burst through your chest',
+      'Our amps go to 12 parrsecs',
+      'You wanted the best - you got the D.U.D.E.S.',
+      'Shall we rock the house coz I feel like rockin again?',
+    ];
+    let randomSlogan = Math.floor(Math.random() * ( dudeslogans.length ) );;
+    document.querySelector('.slogan').textContent = dudeslogans[randomSlogan];
+  </script>
+
+  </body>
+
+</html>
